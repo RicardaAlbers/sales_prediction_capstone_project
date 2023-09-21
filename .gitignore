@@ -138,5 +138,10 @@ models/*
 #config file has sensitive data
 .mlflow_uri
 
-# private folder
-notebooks/just to safe/
+#private folder
+Notebooks/just to safe/
+Notebooks/not final
+
+#data
+data/*.csv
+data/*.pkl
