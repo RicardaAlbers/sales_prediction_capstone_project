@@ -140,7 +140,7 @@ models/*
 
 #private folder
 Notebooks/just to safe/
-Notebooks/not final
+not_final
 
 #data
 data/*.csv
