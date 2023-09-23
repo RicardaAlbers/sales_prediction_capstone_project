@@ -1,8 +1,10 @@
-# Introduction To The Notebooks Of A Capstone Project 
+# Capstone Project: Introduction To The Notebooks
 
-![tom_superstore](images/1_tom_stuperstore.png)
+<img src="images/1_tom_stuperstore.png" alt="African Pattern" width="250" height="220" />
 
 This repository contains the Jupyter Notebooks of a capstone project carried out within the framework of a boot camp of *neuefische* executed during summer 2023. This project is based on a [kaggle challenge provided by Walmart Recruiting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/overview) and aims to predict the weekly sales of different supermarket stores all over the country.
+
+The project was carried out following the methods of agile project management. As a self-organizing team, we set milestones, gave each other continuous feedback and prioritized according to the current development status. This enabled us to react flexibly.<br>
 
 In order to successfully run the Jupyter Notebooks, please download the original data files from [Kaggle](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data) and save it to ```./data/"```
 
@@ -31,5 +33,4 @@ This repo's folder Notebooks contains within notebooks following chapters:
 - [05.2 Feature Engineering Random Forest](Notebooks/05.2_feature_engineering_randomforest.ipynb)
 - [06.1 Modelling Extra Trees](Notebooks/06.1_best_model_extratrees.ipynb)
 - [06.2 Modelling RandomForest](Notebooks/05.2_feature_engineering_randomforest.ipynb)
-- [06.3 Modelling KNN](06.3_modelling_knn.ipynb)
 - [07 Plotting for presentation](Notebooks/07_plots_presentation.ipynb)
