@@ -4,12 +4,14 @@
 
 This repository contains the Jupyter Notebooks of a capstone project carried out within the framework of a boot camp of *neuefische* executed during summer 2023. This project is based on a [kaggle challenge provided by Walmart Recruiting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/overview) and aims to predict the weekly sales of different supermarket stores all over the country.
 
+You can find our presentation [here](capstone_presentation.pdf).
+
 The project was carried out following the methods of agile project management. As a self-organizing team, we set milestones, gave each other continuous feedback and prioritized according to the current development status. This enabled us to react flexibly.<br>
 
 In order to successfully run the Jupyter Notebooks, please download the original data files from [Kaggle](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data) and save it to ```./data/"```
 
 Our notebooks follow the Data Science Lifecycle: from wrangling and  cleaning to EDA, than feature engineering to the model and its error analysis. Since the notebooks build on each other, we ask that you run them in the correct order. This will provide the correct files for the models. 
-For example, for the best model Extra Trees (06.1), please run Notebook 01, 02 and 05.1 locally. To run EDA (03) or the baseline model (04) you just need to run 01 and 02 before.
+For example, for the best model Extra Trees (06.1), please run Notebook 01_dataframe_merging, 02_data_cleaning and 05.1_feature_engineering_extratrees locally. To run 03_eda or 04_baseline_model you just need to run 01 and 02 before.
 
 Please also set up a new virtual environment. For this purpose use the following commands:
 
