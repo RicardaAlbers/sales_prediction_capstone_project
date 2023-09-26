@@ -11,7 +11,8 @@ The project was carried out following the methods of agile project management. A
 In order to successfully run the Jupyter Notebooks, please download the original data files from [Kaggle](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data) and save it to ```./data/"```
 
 Our notebooks follow the Data Science Lifecycle: from wrangling and  cleaning to EDA, than feature engineering to the model and its error analysis. Since the notebooks build on each other, we ask that you run them in the correct order. This will provide the correct files for the models. 
-For example, for the best model Extra Trees (06.1), please run Notebook 01_dataframe_merging, 02_data_cleaning and 05.1_feature_engineering_extratrees locally. To run 03_eda or 04_baseline_model you just need to run 01 and 02 before.
+For example, for the best model in Notebook 06.1_best_model_extratrees, please run Notebook 01_dataframe_merging, 02_data_cleaning and 05.1_feature_engineering_extratrees locally.<br>
+To run 03_eda or 04_baseline_model you just need to run 01 and 02 before.
 
 Please also set up a new virtual environment. For this purpose use the following commands:
 
@@ -36,3 +37,4 @@ This repo's folder Notebooks contains within notebooks following chapters:
 - [06.1 Modelling Extra Trees](Notebooks/06.1_best_model_extratrees.ipynb)
 - [06.2 Modelling RandomForest](Notebooks/05.2_feature_engineering_randomforest.ipynb)
 - [07 Plotting for presentation](Notebooks/07_plots_presentation.ipynb)
+- [08 Some future work done](Notebooks/08_some_future_work_done.ipynb)
