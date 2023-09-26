@@ -10,8 +10,12 @@ The project was carried out following the methods of agile project management. A
 
 In order to successfully run the Jupyter Notebooks, please download the original data files from [Kaggle](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data) and save it to ```./data/"```
 
-Our notebooks follow the Data Science Lifecycle: from wrangling and  cleaning to EDA, than feature engineering to the model and its error analysis. Since the notebooks build on each other, we ask that you run them in the correct order. This will provide the correct files for the models. 
-For example, for the best model in Notebook 06.1_best_model_extratrees, please run Notebook 01_dataframe_merging, 02_data_cleaning and 05.1_feature_engineering_extratrees locally.<br>
+Our notebooks follow the Data Science Lifecycle: from wrangling and  cleaning to EDA, than feature engineering to the model and its error analysis. Since the notebooks build on each other, we ask that you run them in the correct order. This will provide the correct files for the models. <br><br>
+For example, for the best model in Notebook 06.1_best_model_extratrees, please run locally the following notebooks:<br><br> 
+*  01_dataframe_merging <br>
+*  02_data_cleaning and <br>
+* 05.1_feature_engineering_extratrees.<br><br>
+
 To run 03_eda or 04_baseline_model you just need to run 01 and 02 before.
 
 Please also set up a new virtual environment. For this purpose use the following commands:
